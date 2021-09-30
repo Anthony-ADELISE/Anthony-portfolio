@@ -17,8 +17,13 @@
     align-items: center;
 }
 
+.web-option a:hover{
+    color: #ffc727;
+}
+
 .option-icon{
     display: flex;
     align-items: center;
     margin-right: 4px;
 }
+

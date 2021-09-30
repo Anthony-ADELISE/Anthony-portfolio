@@ -1,5 +1,5 @@
 .mobile{
-    background-color: black;
+    background-color: white;
     display: flex;
     flex-direction: column;
     height: 100vh;
@@ -37,4 +37,8 @@
     text-decoration: none;
     color: gray;
     display: flex;
+}
+
+.mobile-option a:hover{
+    color: #ffc727;
 }
