@@ -1,10 +1,20 @@
 import React from 'react';
+import { ProjectsData } from './data/ProjectsData';
 import './Projects.css';
+import ProjectsCard from './ProjectsCard';
+import Separator from './Separator';
 
 function Projects() {
+    const data = ProjectsData;
     return (
         <div className="projects">
-           <h1>Projects</h1>
+            <Separator />
+            <label className="section-title">Projects</label>
+            <div>
+           {data.map((project)=> {
+               return <ProjectsCard project={project}/>
+           })}
+           </div>
         </div>
     )
 }
