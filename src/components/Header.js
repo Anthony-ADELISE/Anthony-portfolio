@@ -7,7 +7,7 @@ function Header() {
     const [isOpen, setIsOpen] = useState(false);
   return (
     <div className="header">
-      <div className="logo">AnthonyADELISE</div>
+      <div className="logo"> <img className="logo-header" alt="logo-pic" src={require("../assets/images/logo..png").default}/></div>
       <div className="menu">
         <div className="web-menu">
             <Web />

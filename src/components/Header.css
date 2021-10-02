@@ -11,10 +11,11 @@
     display: flex;
     flex: 1;
     justify-content: flex-end;
+    padding-top: 24px;
 }
 
 .menu-icon{
-    font-size: 24px;
+    font-size: 40px;
 }
 
 .mobile-menu{
@@ -27,9 +28,16 @@
 
 .logo{
     display: flex;
-    font-size: 36px;
     color: slategrey;
     font-weight: 800;
+}
+
+.logo-header{
+    width: 9.5%;
+    align-items: center;
+    display: flex;
+    padding-top: 12px;
+    
 }
 
 @media only screen and (max-width: 720px) {
