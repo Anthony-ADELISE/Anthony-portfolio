@@ -33,4 +33,7 @@
         flex-direction: column;
         align-items: center;
     }
+    .skills{
+        padding-left: 16px;
+    }
 }

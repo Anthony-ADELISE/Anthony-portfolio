@@ -1,6 +1,6 @@
 export const SkillsData = [
   {
-    type: "Frontend",
+    type: "- Frontend",
     list: [
       {
         name: "ReactJS",
@@ -29,7 +29,7 @@ export const SkillsData = [
     ],
   },
   {
-    type: "Backend",
+    type: "- Backend",
     list: [
       {
         name: "NodeJS",
@@ -38,6 +38,15 @@ export const SkillsData = [
       {
         name: "Firebase",
         icon: <i class="devicon-firebase-plain colored"></i>,
+      },
+    ],
+  },
+  {
+    type: "- Other",
+    list: [
+      {
+        name: "Git",
+        icon:<i class="devicon-git-plain colored"></i>,
       },
     ],
   },

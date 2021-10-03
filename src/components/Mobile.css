@@ -13,8 +13,9 @@
 .close-icon{
     display: flex;
     justify-content: flex-end;
-    font-size: 24px;
+    font-size: 32px;
     color: gray;
+    padding-top: 16px;
 }
 
 .mobile-options{

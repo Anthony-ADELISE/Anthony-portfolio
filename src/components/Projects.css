@@ -9,3 +9,10 @@
     font-weight: 700;
     color: #ffc727;
 }
+
+
+@media only screen and (max-width: 720px) {
+    .projects{
+        padding-left: 16px;
+    }
+}

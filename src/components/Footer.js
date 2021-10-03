@@ -3,8 +3,8 @@ import './Footer.css';
 
 function Footer() {
     return (
-        <div>
-            <h1>Footer components</h1>
+        <div className="footer">
+            Enjoy my portfolio 🤙🏾
         </div>
     )
 }
