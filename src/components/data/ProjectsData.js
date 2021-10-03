@@ -23,7 +23,7 @@ export const ProjectsData = [
       "Chakra ui",
     ],
     demo: "www.demo.com",
-    github: "www.github.com",
+    github: "https://github.com/Anthony-ADELISE/Projet-react",
     images: require("../../assets/images/ParisEvents.png").default,
   },
 ];
